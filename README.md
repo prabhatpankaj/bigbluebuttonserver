@@ -7,7 +7,7 @@ cd bigbluebuttonserver
 sh bigbluebuttonserver.sh yourdomain.com email@yourdomain.com
 ```
 
-create admin account
+* create admin account
 
 ```
 
@@ -16,7 +16,9 @@ docker exec greenlight-v2 bundle exec rake admin:create
 ```
 
 * redirect http to https
+
 update /etc/nginx/sites-available/bigbluebutton
+
 ```
 
 server {
